@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="300"
+        x:Class="PodcastUpdater2.screens.PopupWindow"
+        Title="Popup Window"
+        Width="400" Height="300"
+        WindowStartupLocation="CenterOwner"
+        CanResize="False"
+        ShowInTaskbar="False"
+        SystemDecorations="None"
+        Background="White"
+        BorderThickness="1"
+        >
+    <Grid>
+      <ContentControl Name="ContentArea" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+      <Button Content="Close" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10"
+              Width="80" Click="Close_Click"/>
+  </Grid>
+</Window>
