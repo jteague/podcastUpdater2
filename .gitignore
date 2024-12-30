@@ -1,0 +1,57 @@
+# Build Folders
+bin/
+obj/
+out/
+
+# User-Specific Files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs and Logs Folders
+*.log
+logs/
+
+# Visual Studio Files
+.vscode/
+.vs/
+
+# Backup Files
+*.bak
+*.swp
+*.tmp
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Environment Files
+.env
+.env.*
+
+# Generated Files
+Generated_Code/
+*.g.cs
+*.g.i.cs
+*.Designer.cs
+
+# Resharper Files
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+
+# ASP.NET Specific
+appsettings*.json
+appsettings*.Development.json
+secrets.json
+
+# Publish Output
+.publish/
+
+# Git Ignore Itself
+#.gitignore

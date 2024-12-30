@@ -1,0 +1,18 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="PodcastUpdater2.screens.MenuControl"
+             Background="Gray">
+    <Menu>
+        <MenuItem Header="File">
+            <MenuItem Header="Open local rss.xml..." />
+            <MenuItem Header="Open remote rss.xml..." />
+            <MenuItem Header="Save" />
+            <MenuItem Header="Exit" />
+            <MenuItem Header="Settings..." />
+        </MenuItem>
+        <MenuItem Header="Actions">
+            <MenuItem Header="Upload audio file..." />
+            <MenuItem Header="Publish rss.xml" />
+        </MenuItem>
+    </Menu>
+</UserControl>
