@@ -6,11 +6,13 @@
         <MenuItem Header="File">
             <MenuItem Header="Open local rss.xml..." />
             <MenuItem Header="Open remote rss.xml..." />
+            <MenuItem Header="Settings..." />
             <MenuItem Header="Save" />
             <MenuItem Header="Exit" />
-            <MenuItem Header="Settings..." />
         </MenuItem>
         <MenuItem Header="Actions">
+            <MenuItem Header="Edit podcast info..." />
+            <MenuItem Header="Add new episode..." />
             <MenuItem Header="Upload audio file..." />
             <MenuItem Header="Publish rss.xml" />
         </MenuItem>

@@ -1,0 +1,48 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="PodcastUpdater2.screens.Episode">
+    <StackPanel Margin="20">
+        <TextBlock Text="Select Episode:" />
+        <ComboBox Name="EpisodeDropdown" Width="460"/>
+
+        <TextBlock Text="Title:" Margin="0,10,0,0" />
+        <TextBox Name="TitleTextBox" />
+
+        <TextBlock Text="Subtitle:" Margin="0,10,0,0" />
+        <TextBox Name="SubtitleTextBox" />
+
+        <TextBlock Text="Author:" Margin="0,10,0,0" />
+        <TextBox Name="AuthorTextBox" />
+
+        <TextBlock Text="URL:" Margin="0,10,0,0" />
+        <StackPanel Orientation="Horizontal">
+            <TextBox Name="UrlTextBox" Width="300" />
+            <Button Content="Test Link" Margin="10,0,0,0" />
+        </StackPanel>
+
+        <TextBlock Text="Duration:" Margin="0,10,0,0" />
+        <TextBox Name="DurationTextBox" />
+
+        <TextBlock Text="Keywords:" Margin="0,10,0,0" />
+        <TextBox Name="KeywordsTextBox" />
+
+        <TextBlock Text="Date:" Margin="0,10,0,0" />
+        <DatePicker Name="DatePicker" />
+
+        <StackPanel Margin="0,10,0,0">
+          <TextBlock Text="Guid:"/>
+          <StackPanel Orientation="Horizontal">
+              <TextBox Name="GuidTextBox" Width="300" />
+              <Button Content="Generate" Margin="10,0,0,0" />
+          </StackPanel>
+        </StackPanel>
+
+        <TextBlock Text="Summary:" Margin="0,10,0,0" />
+        <TextBox Name="SummaryTextBox" AcceptsReturn="True" Height="100" />
+
+        <Button Content="Save Episode" Margin="0,10,0,0" HorizontalAlignment="Right" />
+    </StackPanel>
+</UserControl>

@@ -11,6 +11,7 @@
         <local:MenuControl/>
         <!-- Other controls -->
 
-        <local:Settings />
+        <local:Episode />
+        <!-- <local:Settings /> -->
     </StackPanel>
 </Window>

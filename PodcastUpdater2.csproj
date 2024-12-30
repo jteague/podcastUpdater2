@@ -24,4 +24,16 @@
     <Folder Include="assets/" />
     <AvaloniaResource Include="assets/**/*.*" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="screens/Episode.axaml.cs">
+      <DependentUpon>Episode.axaml</DependentUpon>
+    </Compile>
+    <Compile Update="screens/Settings.axaml.cs">
+      <DependentUpon>Settings.axaml</DependentUpon>
+    </Compile>
+    <Compile Update="screens/MenuControl.axaml.cs">
+      <DependentUpon>MenuControl.axaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>
